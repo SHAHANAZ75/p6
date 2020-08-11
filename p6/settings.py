@@ -126,7 +126,11 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS=[
     STATIC_DIR_MYPP,
 ]
-
+EMAIL_HOST="smtp.gmail.com"
+EMAIL_PORT=465
+EMAIL_HOST_USER="luckyshanu800@gmail.com"
+EMAIL_HOST_PASSWORD="Luckyshanu@143"
+EMAIL_USE_SSL=True
 
 
 
